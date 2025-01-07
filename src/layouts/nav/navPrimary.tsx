@@ -1,21 +1,21 @@
-'use client';
-import { type LucideIcon } from 'lucide-react';
-import { Link } from 'react-router-dom';
+'use client'
+import { type LucideIcon } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem
-} from '@/components/ui/sidebar';
+} from '@/components/ui/sidebar'
 
 export function NavPrimary({
   items
 }: {
   items: {
-    title: string;
-    url: string;
-    icon: LucideIcon;
-    isActive?: boolean;
-  }[];
+    title: string
+    url: string
+    icon: LucideIcon
+    isActive?: boolean
+  }[]
 }) {
   return (
     <SidebarMenu className="px-2">
@@ -30,5 +30,5 @@ export function NavPrimary({
         </SidebarMenuItem>
       ))}
     </SidebarMenu>
-  );
+  )
 }

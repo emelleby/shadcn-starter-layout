@@ -1,7 +1,7 @@
-import { ThemeToggle } from '@/components/theme/ThemeToggle';
-import { PageBreadcrumb } from './PageBreadcrumb';
-import { SidebarTrigger } from '@/components/ui/sidebar';
-import { Separator } from '@/components/ui/separator';
+import { ThemeToggle } from '@/components/theme/ThemeToggle'
+import { PageBreadcrumb } from './PageBreadcrumb'
+import { SidebarTrigger } from '@/components/ui/sidebar'
+import { Separator } from '@/components/ui/separator'
 
 export function Header() {
   return (
@@ -15,5 +15,5 @@ export function Header() {
         <ThemeToggle />
       </div>
     </header>
-  );
+  )
 }

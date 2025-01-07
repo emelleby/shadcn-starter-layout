@@ -4,7 +4,7 @@ import {
   CardTitle,
   CardDescription,
   CardContent
-} from '@/components/ui/card';
+} from '@/components/ui/card'
 
 export default function DocumentationPage() {
   return (
@@ -30,5 +30,5 @@ export default function DocumentationPage() {
         </CardContent>
       </Card>
     </div>
-  );
+  )
 }

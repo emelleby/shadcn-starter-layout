@@ -10,7 +10,7 @@ import {
   PieChart,
   Settings2,
   SquareTerminal
-} from 'lucide-react';
+} from 'lucide-react'
 
 export const sidebarData = {
   user: {
@@ -146,4 +146,4 @@ export const sidebarData = {
       icon: Map
     }
   ]
-};
+}

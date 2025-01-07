@@ -1,4 +1,4 @@
-import { Card } from '@/components/ui/card';
+import { Card } from '@/components/ui/card'
 
 export default function Index() {
   return (
@@ -10,5 +10,5 @@ export default function Index() {
       </div>
       <Card className="min-h-[400px]" />
     </div>
-  );
+  )
 }

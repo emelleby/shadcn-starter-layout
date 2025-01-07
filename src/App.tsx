@@ -1,10 +1,10 @@
-import './App.css';
-import { ThemeProvider } from '@/components/theme/ThemeProvider';
-import { AppLayout } from './layouts/AppLayout';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Index from '@/pages/Index';
-import GetStarted from '@/pages/Documentation/GetStarted';
-import Documentation from '@/pages/Documentation/Documentation';
+import './App.css'
+import { ThemeProvider } from '@/components/theme/ThemeProvider'
+import { AppLayout } from './layouts/AppLayout'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Index from '@/pages/Index'
+import GetStarted from '@/pages/Documentation/GetStarted'
+import Documentation from '@/pages/Documentation/Documentation'
 
 export default function App() {
   return (
@@ -20,5 +20,5 @@ export default function App() {
         </AppLayout>
       </ThemeProvider>
     </BrowserRouter>
-  );
+  )
 }
