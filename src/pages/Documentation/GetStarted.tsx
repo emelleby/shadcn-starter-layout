@@ -6,7 +6,7 @@ export default function GetStartedPage() {
 			<Card>
 				<CardHeader>
 					<CardTitle>Getting Started with Shadcn Starter</CardTitle>
-					<CardDescription>Learn how to build modern applications with our starter template</CardDescription>
+					<CardDescription>Start to build modern applications with our starter template</CardDescription>
 				</CardHeader>
 				<CardContent>
 					<div className="space-y-4">
