@@ -1,19 +1,7 @@
 "use client"
-import * as React from "react"
-import {
-	AudioWaveform,
-	BookOpen,
-	Bot,
-	Command,
-	Frame,
-	GalleryVerticalEnd,
-	Map,
-	PieChart,
-	Settings2,
-	SquareTerminal,
-} from "lucide-react"
 
-import { NavMain } from "@/layouts/nav/navMain.tsx"
+import { NavPrimary } from "@/layouts/nav/navPrimary"
+import { NavMain } from "@/layouts/nav/navMain"
 import { NavProjects } from "@/layouts/nav/navProjects"
 import { NavUser } from "@/layouts/nav/navUser"
 import { TeamSwitcher } from "./TeamSwitcher"
@@ -34,6 +22,7 @@ export function AppSidebar() {
 				<TeamSwitcher teams={sidebarData.teams} />
 			</SidebarHeader>
 			<SidebarContent>
+				<NavPrimary items={sidebarData.navPrimary} />
 				<NavMain items={sidebarData.navMain} />
 				<NavProjects projects={sidebarData.projects} />
 			</SidebarContent>

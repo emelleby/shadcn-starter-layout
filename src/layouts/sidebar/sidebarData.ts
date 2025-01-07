@@ -5,6 +5,7 @@ import {
   Command,
   Frame,
   GalleryVerticalEnd,
+  Home,
   Map,
   PieChart,
   Settings2,
@@ -34,7 +35,15 @@ export const sidebarData = {
       plan: "Free",
     },
   ],
+  navPrimary: [
+    {
+      title: "Home",
+      url: "/",
+      icon: Home,
+    }
+  ],
   navMain: [
+
     {
       title: "Playground",
       url: "#",
@@ -76,16 +85,16 @@ export const sidebarData = {
     },
     {
       title: "Documentation",
-      url: "#",
+      url: "/documentation",
       icon: BookOpen,
       items: [
         {
           title: "Introduction",
-          url: "#",
+          url: "/documentation",
         },
         {
           title: "Get Started",
-          url: "#",
+          url: "/documentation/get-started",
         },
         {
           title: "Tutorials",
