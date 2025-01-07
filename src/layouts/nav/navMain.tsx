@@ -1,12 +1,11 @@
-"use client"
-
-import { type LucideIcon } from "lucide-react"
-
+'use client'
+import { type LucideIcon } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import {
   Collapsible,
   CollapsibleContent,
-  CollapsibleTrigger,
-} from "@/components/ui/collapsible"
+  CollapsibleTrigger
+} from '@/components/ui/collapsible'
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -15,12 +14,12 @@ import {
   SidebarMenuItem,
   SidebarMenuSub,
   SidebarMenuSubButton,
-  SidebarMenuSubItem,
-} from "@/components/ui/sidebar"
-import { ChevronRightIcon } from "@radix-ui/react-icons"
+  SidebarMenuSubItem
+} from '@/components/ui/sidebar'
+import { ChevronRightIcon } from '@radix-ui/react-icons'
 
 export function NavMain({
-  items,
+  items
 }: {
   items: {
     title: string
@@ -57,9 +56,9 @@ export function NavMain({
                   {item.items?.map((subItem) => (
                     <SidebarMenuSubItem key={subItem.title}>
                       <SidebarMenuSubButton asChild>
-                        <a href={subItem.url}>
+                        <Link to={subItem.url}>
                           <span>{subItem.title}</span>
-                        </a>
+                        </Link>
                       </SidebarMenuSubButton>
                     </SidebarMenuSubItem>
                   ))}

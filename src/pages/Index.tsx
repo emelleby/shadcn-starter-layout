@@ -1,6 +1,6 @@
-import { Card } from "@/components/ui/card"
+import { Card } from '@/components/ui/card'
 
-export function Dashboard() {
+export default function Index() {
   return (
     <div className="grid gap-6">
       <div className="grid gap-4 md:grid-cols-3">
